@@ -1,0 +1,82 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a4629c77-8118-4c50-852e-2c61d25c94c0</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>python_tf_generate_record.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>python_tf_generate_record</Name>
+    <RootNamespace>python_tf_generate_record</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="object_detection\utils\category_util.py" />
+    <Compile Include="object_detection\utils\category_util_test.py" />
+    <Compile Include="object_detection\utils\config_util.py" />
+    <Compile Include="object_detection\utils\config_util_test.py" />
+    <Compile Include="object_detection\utils\dataset_util.py" />
+    <Compile Include="object_detection\utils\dataset_util_test.py" />
+    <Compile Include="object_detection\utils\label_map_util.py" />
+    <Compile Include="object_detection\utils\label_map_util_test.py" />
+    <Compile Include="object_detection\utils\learning_schedules.py" />
+    <Compile Include="object_detection\utils\learning_schedules_test.py" />
+    <Compile Include="object_detection\utils\metrics.py" />
+    <Compile Include="object_detection\utils\metrics_test.py" />
+    <Compile Include="object_detection\utils\np_box_list.py" />
+    <Compile Include="object_detection\utils\np_box_list_ops.py" />
+    <Compile Include="object_detection\utils\np_box_list_ops_test.py" />
+    <Compile Include="object_detection\utils\np_box_list_test.py" />
+    <Compile Include="object_detection\utils\np_box_ops.py" />
+    <Compile Include="object_detection\utils\np_box_ops_test.py" />
+    <Compile Include="object_detection\utils\object_detection_evaluation.py" />
+    <Compile Include="object_detection\utils\object_detection_evaluation_test.py" />
+    <Compile Include="object_detection\utils\ops.py" />
+    <Compile Include="object_detection\utils\ops_test.py" />
+    <Compile Include="object_detection\utils\per_image_evaluation.py" />
+    <Compile Include="object_detection\utils\per_image_evaluation_test.py" />
+    <Compile Include="object_detection\utils\shape_utils.py" />
+    <Compile Include="object_detection\utils\shape_utils_test.py" />
+    <Compile Include="object_detection\utils\static_shape.py" />
+    <Compile Include="object_detection\utils\static_shape_test.py" />
+    <Compile Include="object_detection\utils\test_utils.py" />
+    <Compile Include="object_detection\utils\test_utils_test.py" />
+    <Compile Include="object_detection\utils\variables_helper.py" />
+    <Compile Include="object_detection\utils\variables_helper_test.py" />
+    <Compile Include="object_detection\utils\visualization_utils.py" />
+    <Compile Include="object_detection\utils\visualization_utils_test.py" />
+    <Compile Include="object_detection\utils\__init__.py" />
+    <Compile Include="object_detection\__init__.py" />
+    <Compile Include="python_tf_generate_record.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="object_detection\" />
+    <Folder Include="object_detection\utils\" />
+    <Folder Include="object_detection\utils\__pycache__\" />
+    <Folder Include="object_detection\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="object_detection\utils\__pycache__\dataset_util.cpython-36.pyc" />
+    <Content Include="object_detection\utils\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="object_detection\__pycache__\__init__.cpython-36.pyc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
