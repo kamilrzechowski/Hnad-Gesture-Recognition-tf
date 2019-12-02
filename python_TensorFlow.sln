@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "python_tf_xml_to_csv", "python_tf_xml_to_csv\python_tf_xml_to_csv.pyproj", "{47DE4F7E-CE44-47ED-AE98-CEA09B7326B2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "python_tf_generate_record", "python_tf_generate_record\python_tf_generate_record.pyproj", "{A4629C77-8118-4C50-852E-2C61D25C94C0}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "python_tf_training", "python_tf_training\python_tf_training.pyproj", "{76971853-0377-4E73-BBBC-4E97EF3FF3EC}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "python_tf_graph_export", "python_tf_graph_export\python_tf_graph_export.pyproj", "{BC424BC2-D551-4979-9A44-8695538E38D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47DE4F7E-CE44-47ED-AE98-CEA09B7326B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47DE4F7E-CE44-47ED-AE98-CEA09B7326B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4629C77-8118-4C50-852E-2C61D25C94C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4629C77-8118-4C50-852E-2C61D25C94C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76971853-0377-4E73-BBBC-4E97EF3FF3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76971853-0377-4E73-BBBC-4E97EF3FF3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC424BC2-D551-4979-9A44-8695538E38D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC424BC2-D551-4979-9A44-8695538E38D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C20BB1FA-DDEB-4A76-9E56-0CC57DEF1907}
+	EndGlobalSection
+EndGlobal
