@@ -1,2 +1,3 @@
 # Hnad-Gesture-Recognition-tf
-Repository for my bachelor thesis project of hand gesture recognition in video stream
+## "Navigation and interaction in the Virtual Enviroment using hand gesture recognition in the videostream"  
+Repository for my bachelor thesis project of hand gesture recognition in video stream. The tensorflow script runs on the windows computer. The user standes in front of the computer with VR gogles on. The computer detects and classifies hand gestures of the user and sends the feedback information to the gogles using Wi-Fi direct. Than the VR application takes an action based on th gesture information recived from the PC. The following repository contains  tensorflow script for hand gestures recognition and one way comunication to the VR app. The handdataset (10,000 images of 3 different gestures) is not included as the size of dataset is too big for github page.
